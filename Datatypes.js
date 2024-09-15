@@ -14,3 +14,11 @@ let intnum = 25
 let stringnum = String(intnum)
 console.log(stringnum)
 console.log(typeof stringnum)
+
+// String to number erry conversion 
+console.log("1"+2+2); // String on 1st position, no arithmetic operation takes place
+console.log(1+11+"1"); // String on last position, arithmatic ops takes place
+
+//  Comparisons among number datatype
+console.log(2  > 1, 2<1);
+
